@@ -19,7 +19,6 @@ const firebaseConfig = {
     firebase.database().ref(username).set(password);
     console.log("added")
     event.preventDefault();
-    setTimeout(function() {open()} , 2000);
   }
 
   function open()
